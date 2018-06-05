@@ -1,0 +1,28 @@
+{
+  "name": "aws-job-queue-service",
+  "version": "1.0.0",
+  "description": "aws sqs queue service to queue jobs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamPiy93/aws-job-queue-service.git"
+  },
+  "keywords": [
+    "sqs",
+    "aws-sqs-service",
+    "queue-service",
+    "sqs-jobs"
+  ],
+  "author": "sampiy93 <madumal.piyasundara@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamPiy93/aws-job-queue-service/issues"
+  },
+  "homepage": "https://github.com/SamPiy93/aws-job-queue-service#readme",
+  "dependencies": {
+    "aws-sdk": "^2.251.1"
+  }
+}
