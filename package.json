@@ -4,7 +4,8 @@
   "description": "aws sqs queue service to queue jobs ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,14 @@
   },
   "homepage": "https://github.com/SamPiy93/aws-job-queue-service#readme",
   "dependencies": {
+    "@types/es6-promise": "^3.3.0",
     "aws-sdk": "^2.251.1"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "@types/node": "^10.3.1",
+    "core-js": "^2.5.7",
+    "typescript": "^2.9.1",
+    "ts-node": "~3.2.0"
   }
 }
