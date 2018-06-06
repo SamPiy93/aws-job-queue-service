@@ -1,6 +1,6 @@
 {
   "name": "aws-job-queue-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "aws sqs queue service to queue jobs ",
   "main": "index.js",
   "scripts": {
